@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d7d7d4;
+    color: #353535;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background-color: #65805c;
+    border-bottom: 7px solid rgb(53, 53, 53);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menuprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.nav,
+.nava {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 999px;
+    transition: 0.2s;
+}
+
+.nava {
+    background-color: rgb(53, 53, 53);
+}
+
+.nav:hover,
+.nava:hover {
+    background-color: rgb(53, 53, 53);
+    border-radius: 999px;
+}
+
+.nava a,
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13.5px;
+}
+
+.secaoum {
+    background-color: rgb(80, 85, 77);
+    padding: 30px 10px 55px;
+}
+
+.sectionn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sectionn h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.sectionn p {
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.livropedia a {
+    display: inline-block;
+    background-color: rgb(53, 53, 53);
+    border: 3px solid #c0c0ab;
+    border-radius: 999px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 40px;
+}
+
+.titulo {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.titulo h2 {
+    color: #353535;
+    font-size: 25px;
+}
+
+.container-livros {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+}
+
+.filhosa,
+.filhos,
+.filhosb {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    background-color: #f5f5f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container-livros img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 5px 0 10px;
+}
+
+.filhos p,
+.filhosa p,
+.filhosb p {
+    margin: 5px 0 20px;
+    line-height: 1.5;
+    color: #353535;
+}
+
+.especificacao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.especificacao span {
+    background-color: #ce66b9;
+    padding: 5px 10px;
+    border-radius: 111px;
+    color: white;
+    font-size: 13px;
+}
+
+.secao-beneficios {
+    background-color: #d7d7d4;
+    padding: 0 15px 60px;
+}
+
+.titulo-beneficios h2 {
+    color: #353535;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grade-beneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blocos,
+.blocoss {
+    min-height: 125px;
+    width: 100%;
+    border-left: 5px solid rgb(53, 53, 53);
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding: 15px 15px 15px 20px;
+}
+
+.blocos h3,
+.blocoss h3 {
+    color: #65805c;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.blocos p,
+.blocoss p {
+    color: #353535;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+    padding: 20px 15px;
+}
+
+.rodapenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.rodapenav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: small;
+}
+
+.smalll {
+    max-width: 700px;
+    margin: 20px auto 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+@media (min-width: 600px) {
+
+    .menuprincipal {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;
+    }
+
+    .navv {
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    .navbar {
+        width: auto;
+        justify-content: flex-end;
+    }
+
+    .navbar .nav,
+    .navbar .nava {
+        margin-bottom: 0;
+    }
+
+    .sectionn h2 {
+        font-size: 30px;
+    }
+
+    .container-livros {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .filhosa,
+    .filhos,
+    .filhosb {
+        width: 100%;
+        margin: 0;
+    }
+
+    .grade-beneficios {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .blocos,
+    .blocoss {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .menuprincipal {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 35px;
+    }
+
+    header img {
+        width: 35px;
+        height: 35px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .navbar {
+        gap: 15px;
+    }
+
+    .nav,
+    .nava {
+        padding: 13px 18px;
+    }
+
+    .secaoum {
+        padding: 65px 30px 80px;
+    }
+
+    .sectionn {
+        max-width: 850px;
+    }
+
+    .sectionn h2 {
+        font-size: 40px;
+    }
+
+    .sectionn p {
+        font-size: 18px;
+        max-width: 750px;
+    }
+
+    .livropedia a {
+        font-size: 19px;
+        padding: 14px 24px;
+    }
+
+    main {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px 55px;
+    }
+
+    .titulo {
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .titulo h2 {
+        font-size: 32px;
+    }
+
+    .container-livros {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        max-width: 1100px;
+        gap: 25px;
+    }
+
+    .container-livros img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .filhosa,
+    .filhos,
+    .filhosb {
+        min-height: 290px;
+        padding: 20px;
+    }
+
+    .secao-beneficios {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 30px 70px;
+    }
+
+    .titulo-beneficios h2 {
+        font-size: 30px;
+    }
+
+    .grade-beneficios {
+        max-width: 1100px;
+        gap: 25px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .container-livros {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        max-width: 1150px;
+    }
+
+    .filhosa,
+    .filhos,
+    .filhosb {
+        min-height: 310px;
+    }
+
+    .grade-beneficios {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}

@@ -1,0 +1,473 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #d7d7d4;
+    color: rgb(53, 53, 53);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+header {
+    background-color: #65805c;
+    border-bottom: solid 7px rgb(53, 53, 53);
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+.navv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    padding: 15px;
+}
+
+.navv img {
+    width: 30px;
+    height: 30px;
+}
+
+.navv h1 {
+    margin: 0;
+
+    color: white;
+
+    font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    padding-bottom: 10px;
+}
+
+.navbar a {
+    color: white;
+
+    text-decoration: none;
+}
+
+.nav,
+.nava,
+.nave {
+    padding: 12px 15px;
+
+    border-radius: 999px;
+
+    font-size: 15px;
+}
+
+.nav {
+    background-color: rgb(53, 53, 53);
+}
+
+.nava {
+    background-color: transparent;
+}
+
+.nave {
+    background-color: transparent;
+}
+
+.nav:hover,
+.nava:hover,
+.nave:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+p {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+main .um,
+main .dois {
+    margin: 0 20px 0 13px;
+    text-align: start;
+}
+
+main .dois {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+main .tres {
+    text-align: center;
+    margin-inline: 30px;
+}
+
+main .quatro {
+    text-align: center;
+
+    color: #4d6246;
+
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.sectiondois {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-bottom: 60px;
+}
+
+.sectiondois h2 {
+    width: 100%;
+
+    padding-top: 50px;
+
+    font-size: 25px;
+
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+.divum {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+
+    min-height: 140px;
+
+    width: 360px;
+
+    border-radius: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 20px;
+
+    background-color: #f5f5f1;
+}
+
+.contornodivum {
+    margin-top: 15px;
+
+    min-height: 30px;
+
+    width: 320px;
+
+    background-color: #f5f5f1;
+
+    border-radius: 20px;
+
+}
+
+.contornodivum p {
+    color: rgb(142, 81, 160);
+
+    margin: 5px 0 0 13px;
+
+    font-weight: bold;
+}
+
+.paragrafos {
+    width: 320px;
+}
+
+.paragrafos p {
+    color: black;
+
+    padding-top: 10px;
+
+    margin-left: 0;
+}
+
+section {
+    background-color: #d7d7d4;
+
+    margin-bottom: 0;
+}
+
+section h2 {
+    margin-left: 15px;
+}
+
+.explorar {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.explorar h2 {
+    color: black;
+
+    margin-bottom: 20px;
+
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.grade-blocos {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+
+    padding: 0 15px;
+}
+
+.blocos,
+.blocoss {
+    min-height: 125px;
+
+    width: 100%;
+
+    border-left: 5px solid rgb(53, 53, 53);
+
+    border-radius: 10px;
+
+    overflow-wrap: break-word;
+
+    word-break: break-word;
+
+    background-color: #f5f5f1;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+
+    padding: 10px 15px;
+}
+
+.blocoss {
+    margin-bottom: 0;
+}
+
+.blocos h3,
+.blocoss h3 {
+    color: #65805c;
+
+    margin: 5px 0 10px 0;
+
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.blocos p,
+.blocoss p {
+    margin: 0;
+
+    color: black;
+
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+footer {
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: rgb(53, 53, 53);
+
+    color: aliceblue;
+
+    padding-bottom: 25px;
+}
+
+.rodapenav {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 35px;
+
+    margin-top: 20px;
+
+    font-size: 14px;
+}
+
+.rodapenav a {
+    text-decoration: none;
+
+    color: aliceblue;
+}
+
+.smalll {
+    text-align: center;
+
+    padding: 20px 30px 0;
+}
+
+.smalll small {
+    color: #bdbdbd;
+}
+
+@media (min-width: 600px) {
+
+    .navv {
+        justify-content: flex-start;
+
+        max-width: 1100px;
+
+        margin: auto;
+
+        padding: 15px 20px;
+    }
+
+    .navbar {
+        position: absolute;
+
+        right: 20px;
+
+        top: 15px;
+    }
+
+    .sectiondois h2 {
+        max-width: 1100px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        padding-left: 15px;
+    }
+
+    .grade-blocos {
+        grid-template-columns: repeat(2, 1fr);
+
+        max-width: 1100px;
+
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    .navv {
+        padding: 25px 0;
+    }
+
+    .navv h1 {
+        font-size: 25px;
+    }
+
+    .navbar {
+        right: calc((100% - 1100px) / 2);
+
+        top: 20px;
+    }
+
+    main .um,
+    main .dois,
+    main .tres,
+    main .quatro {
+        max-width: 1100px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main .um {
+        padding-top: 40px;
+    }
+
+    main .dois {
+        margin-bottom: 70px;
+    }
+
+    .sectiondois {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+
+    .sectiondois h2 {
+        font-size: 30px;
+
+        padding-left: 0;
+
+        margin-bottom: 25px;
+    }
+
+    .sectiondois .divum {
+        width: 100%;
+
+        min-height: 160px;
+
+        margin-top: 0;
+    }
+
+    .grade-blocos {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 20px;
+
+        padding: 0;
+    }
+
+    .blocos,
+    .blocoss {
+        min-height: 140px;
+    }
+
+    .explorar {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    .explorar h2 {
+        max-width: 1100px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: 25px;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+
+}
+
+@media (min-width: 1100px) {
+
+
+
+    .sectiondois {
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 20px;
+
+        max-width: 1100px;
+
+        margin: auto;
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sectiondois h2 {
+        grid-column: 1 / -1;
+    }
+
+    .sectiondois .divum {
+        width: 100%;
+    }
+
+}
